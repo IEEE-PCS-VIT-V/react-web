@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/web/' element={<Main/>}/>
+      <Route path='/web' element={<Main/>}/>
       <Route path='/web/exboard' element={<Exboard/>}/>
     </Routes>
     </BrowserRouter>
