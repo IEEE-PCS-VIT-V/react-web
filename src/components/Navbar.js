@@ -16,7 +16,7 @@ export default function Navbarr() {
       <Navbar.Toggle/>
     
       <Navbar.Collapse  className='text-2xl font-bold text-blue-900 text-center'>
-        <Navbar.Link href='\' >
+        <Navbar.Link href='/react-web' >
           HOME
         </Navbar.Link>
         <Navbar.Link href='#gallery'>
