@@ -29,7 +29,7 @@ const HomeSection1 = () => {
   return (
     <div className="bg-gradient-to-b from-blue-300 via-blue-300/70 to-white pt-10">
 
-      <div className="flex justify-between container mx-auto ">
+      <div className="flex justify-between container mx-auto 2xl:px-24 ">
         <div className=" pl-4 mt-7 hidden md:inline-block ">
           <p className="text-4xl font-bold ">ABOUT US</p>
           <br></br>
