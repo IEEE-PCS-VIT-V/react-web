@@ -9,8 +9,8 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Main/>}/>
-      <Route path='/exboard' element={<Exboard/>}/>
+      <Route path='https://ieee-pcs-vit-v.github.io/web/' element={<Main/>}/>
+      <Route path='https://ieee-pcs-vit-v.github.io/web/exboard' element={<Exboard/>}/>
     </Routes>
     </BrowserRouter>
     </>
