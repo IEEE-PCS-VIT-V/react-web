@@ -28,7 +28,7 @@ const Presentboard = () => {
         </div>
       </div>
     </section>
-    <a href='/exboard'><Button outline
+    <a href='https://ieee-pcs-vit-v.github.io/react-web/#/exboard'><Button outline
               className='bg-gradient-to-r from-blue-700 to-blue-900 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-blue-800  mt-4 mx-auto'>Past Board Members</Button></a>
         </>
     );
