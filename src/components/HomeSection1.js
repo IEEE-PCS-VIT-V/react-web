@@ -52,7 +52,7 @@ const HomeSection1 = () => {
           <img
             src={logo}
             style={iconStyle}
-            className=" w-52 md:w-80 "
+            className="w-full"
             alt="logo"
           />
         </div>

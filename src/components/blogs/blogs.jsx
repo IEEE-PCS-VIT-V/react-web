@@ -17,9 +17,9 @@ const Blogs = () => {
         <section className="container mx-auto mt-10" id="blogs">
             <h2 className="text-5xl font-bold text-center mb-5 text-blue-900" data-aos='fade-up'>Blogs</h2>
           <div className="md:flex flex-wrap sm:mb-10 justify-center">
-            <div className="mt-8 mx-auto w-4/5 sm:w-1/2 "  data-aos='fade-right'>
+            <div className="mt-8 mx-auto w-4/5 sm:w-1/2 "  data-aos='fade-up'>
               <Blogbox img={data[0].img} day={data[0].day} date={data[0].date} topic={data[0].topic} content={data[0].content} link={data[0].link} className=" w-4/5"/></div>
-            <div className="mt-8 mx-auto w-4/5 sm:w-1/2" data-aos='fade-left'>
+            <div className="mt-8 mx-auto w-4/5 sm:w-1/2" data-aos='fade-up'>
               <Blogbox img={data[1].img} day={data[1].day} date={data[1].date} topic={data[1].topic} content={data[1].content} link={data[1].link} /></div>
             <div className=' mt-8 w-4/5 sm:w-1/2 mx-auto' data-aos='fade-up'>
               <Blogbox img={data[2].img} day={data[2].day} date={data[2].date} topic={data[2].topic} content={data[2].content} link={data[2].link} />

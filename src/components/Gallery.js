@@ -64,7 +64,7 @@ const Gallery = () => {
             delay: 3000,
           },
         }}
-      className='px-10 '>
+      className='px-10'>
         <SwiperSlide>
           <img src={img1} alt="Ima1" className='' />
         </SwiperSlide>

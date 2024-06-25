@@ -9,7 +9,7 @@ export default function Aboutus() {
     AOS.init();
   }, [])
   return (
-    <div id="about" className='flex flex-col justify-center align-middle text-center mb-10 ' >
+    <div id="about" className='flex flex-col justify-center align-middle text-center mb-10 container mx-auto ' >
       <h1 className=' text-5xl mt-20 font-semibold' data-aos ='fade-up'>ABOUT US</h1>
       <AboutBox className='mx-auto'/>
     </div>
