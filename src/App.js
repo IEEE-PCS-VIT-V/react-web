@@ -8,8 +8,8 @@ function App() {
     <>
     <HashRouter>
     <Routes>
-      <Route path='#/react-web' element={<Main/>}/>
-      <Route path='#/exboard' element={<Exboard/>}/>
+      <Route path='/' element={<Main/>}/>
+      <Route path='/exboard' element={<Exboard/>}/>
     </Routes>
     </HashRouter>
     </>
