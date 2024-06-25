@@ -48,7 +48,7 @@ const Footer = () => {
               <FaLocationDot size={20}className="mr-5"/>
               <p className="">VIT University Vellore</p>
               </a>
-              <a href="tel:+918897213645" className="flex justify-start text-white mb-4 text-sm" > <BsFillTelephoneFill className="mr-5"size={20}/> <p className="">+91 9425605901</p></a>
+              <a href="tel:+918897213645" className="flex justify-start text-white mb-4 text-sm" > <BsFillTelephoneFill className="mr-5"size={20}/> <p className="">9425605901</p></a>
               <a href="mailto:pcsboard2022@gmail.com" className="flex justify-start text-white text-sm"> <IoIosMail className="mr-5" size={25}/><p>E-mail</p></a>
             </div>
               
