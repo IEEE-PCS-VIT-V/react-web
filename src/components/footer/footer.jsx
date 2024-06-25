@@ -45,11 +45,11 @@ const Footer = () => {
                 rel="noreferrer"
                 className="flex justify-start text-white mb-4 text-sm" 
               >
-              <FaLocationDot size={20}className="mr-5"/>
+              <FaLocationDot size={20}className="mr-5 hidden md:inline"/>
               <p className="">VIT University Vellore</p>
               </a>
-              <a href="tel:+918897213645" className="flex justify-start text-white mb-4 text-sm" > <BsFillTelephoneFill className="mr-5"size={20}/> <p className="">9425605901</p></a>
-              <a href="mailto:pcsboard2022@gmail.com" className="flex justify-start text-white text-sm"> <IoIosMail className="mr-5" size={25}/><p>E-mail</p></a>
+              <a href="tel:+918897213645" className="flex justify-start text-white mb-4 text-sm" > <BsFillTelephoneFill className="mr-5 hidden md:inline"size={20}/> <p className="">9425605901</p></a>
+              <a href="mailto:pcsboard2022@gmail.com" className="flex justify-start text-white text-sm"> <IoIosMail className="mr-5 hidden md:inline" size={25}/><p>E-mail</p></a>
             </div>
               
            
