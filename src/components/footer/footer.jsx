@@ -59,7 +59,7 @@ const Footer = () => {
             <span className="block text-white text-lg font-bold mb-5">
               About Us
             </span>
-            <strong>IEEE-PCS</strong> IEEE-PCS The major objective of IEEE PCS
+            The major objective of <strong>IEEE-PCS </strong>
             is to help engineers technically to communicate better in their work
             place both verbally and non-verbally.
           </p>

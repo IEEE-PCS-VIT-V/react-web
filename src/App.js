@@ -1,4 +1,3 @@
-// import './App.css';
 import Exboard from './components/ex-board/ex-board.jsx';
 
 import {BrowserRouter, Routes,Route } from 'react-router-dom'
@@ -9,8 +8,8 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='https://ieee-pcs-vit-v.github.io/web/' element={<Main/>}/>
-      <Route path='https://ieee-pcs-vit-v.github.io/web/exboard' element={<Exboard/>}/>
+      <Route path='/web' element={<Main/>}/>
+      <Route path='/exboard' element={<Exboard/>}/>
     </Routes>
     </BrowserRouter>
     </>
