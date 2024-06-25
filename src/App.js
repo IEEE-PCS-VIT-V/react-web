@@ -1,17 +1,17 @@
 import Exboard from './components/ex-board/ex-board.jsx';
 
-import {BrowserRouter, Routes,Route } from 'react-router-dom'
+import {HashRouter, Routes,Route } from 'react-router-dom'
 import Main from './components/Main.jsx';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
-      <Route path='/react-web' element={<Main/>}/>
-      <Route path='/react-web/exboard' element={<Exboard/>}/>
+      <Route path='#/react-web' element={<Main/>}/>
+      <Route path='#/exboard' element={<Exboard/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
       
   );
