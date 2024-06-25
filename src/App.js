@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/react-web' element={<Main/>}/>
-      <Route path='/exboard' element={<Exboard/>}/>
+      <Route path='/react-web/exboard' element={<Exboard/>}/>
     </Routes>
     </BrowserRouter>
     </>
