@@ -2,11 +2,25 @@
 import { useEffect, useState, React } from "react";
 import logo from "../img/logo.png";
 import { Button } from "flowbite-react";
+// import WAVES from 'vanta/src/vanta.waves';
 
 const HomeSection1 = () => {
   const [position, setPosition] = useState(0);
   const [direction, setDirection] = useState(1);
-
+  // useEffect(()=>{
+  //   WAVES({
+  //     el: "#vanta",
+  //     mouseControls: true,
+  //     touchControls: true,
+  //     gyroControls: false,
+  //     minHeight: 381.00,
+  //     minWidth: 200.00,
+  //     scale: 1.00,
+  //     scaleMobile: 1.00,
+  //     color: 0x2d427e,
+  //     zoom:0.8
+  //   })
+  // },[])
   useEffect(() => {
     const interval = setInterval(() => {
       if (position === 100 || position === 0) {
@@ -18,6 +32,7 @@ const HomeSection1 = () => {
 
     return () => clearInterval(interval);
   }, [position, direction]);
+  
 
   const iconStyle = {
     position: "relative",
@@ -26,18 +41,19 @@ const HomeSection1 = () => {
     marginRight: "0",
     marginTop: "40px",
   };
+  // bg-gradient-to-b from-blue-300 via-blue-300/70 to-white
   return (
-    <div className="bg-gradient-to-b from-blue-300 via-blue-300/70 to-white pt-10">
-
+    <div className="pt-10 pb-10" id="vanta">
+      <div className="mx-auto bg-blue-950 bg-opacity-65 py-8 rounded-3xl w-4/5 z-10">
       <div className="flex justify-between container mx-auto 2xl:px-24 ">
         <div className=" pl-4 mt-7 hidden md:inline-block ">
-          <p className="text-4xl font-bold ">ABOUT US</p>
+          <p className="text-4xl font-bold">ABOUT US</p>
           <br></br>
           <p className="text-2xl mt-0 mb-0 text-black font-semibold">
-            Communication for the <span className="text-blue-900">Soul,</span>
+            Communication for the <span className="text-white">Soul,</span>
           </p>
           <p className="text-2xl text-black font-semibold">
-            Technology for the <span className="text-blue-900">Mind.</span>
+            Technology for the <span className="text-white">Mind.</span>
           </p>
           <form method="get" action="#about">
             <Button
@@ -74,6 +90,7 @@ const HomeSection1 = () => {
             Know More
           </Button>
         </form>
+      </div>
       </div>
     </div>
   );

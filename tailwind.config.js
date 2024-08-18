@@ -20,6 +20,8 @@ export default {
       },
       colors: {
         'sky-blue': '#AEDFFB',
+        'dark-blue': '#00629c',
+        'comp':"#5e7ed9"
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(45deg, #d8f2f3 , #ebf9f9)',

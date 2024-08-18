@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import image from "./blog_1.1.jpeg";
-import image1 from "./blog_2.1.jpg";
+// import image from "./blog_1.1.jpeg";/
+// import image1 from "./blog_2.1.jpg";
 import image2 from "./blog_3.jpg";
 import image3 from "./24b1.jpg";
+import image4 from "../../img/blogs/BLOG POST1.png";
+import image5 from "../../img/blogs/b2.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Blogbox from "../Blogbox";
@@ -36,28 +38,28 @@ export default Blogs;
 
 const data = [
   {
-    img : image3,
-    day: "Tuesday",
-    date: "Mar 19, 2024",
-    topic: "Crafting Tomorrow: The Future of Generative AI",
-    content :"In the vast landscape of artificial intelligence, one area that has sparked tremendous excitement and intrigue is Generative AI.......",
-    link : "https://ieeepcs-85169.medium.com/crafting-tomorrow-a-deep-dive-into-the-future-of-generative-ai-d61186b3241d",
-},
-  {
-      img : image,
-      day: "Sunday",
-      date: "Sep 19 2021",
-      topic: "Microprocessors: the Unexplained Link",
-      content :"Today we live in a world swarmed by technology. Everything and everyone is involved in technology......",
-      link : "https://ieeepcs-85169.medium.com/microprocessors-the-unexplained-link-459dacf7a2cd",
+      img : image4,
+      day: "Thursday",
+      date: "Jun 27 2024",
+      topic: "Beyond Reality: Exploring the Transformative Power of AR and VR",
+      content :"Imagine a world where you can fight dragons in your living room, visit the Eiffel Tower without leaving your couch......",
+      link : "https://ieeepcs-85169.medium.com/beyond-reality-exploring-the-transformative-power-of-ar-and-vr-e052adc00753",
   },
   {
-    img : image1,
-    day: "Sunday",
-    date: "Aug 29 2021",
-    topic: "Supervised Machine Learning",
-    content :"Supervised Learning is a type of machine learning used to train models using labelled datasets. Labelled data is a......",
-    link: "https://ieeepcs-85169.medium.com/supervised-machine-learning-c5c7c5872ad9",
+    img : image5,
+    day: "Friday",
+    date: "Jun 14 2024",
+    topic: "The Scaling Dilemma: Why Digital Twins Get Stuck in Data Silos",
+    content :"Digital twins have emerged as a powerful tool for businesses, promising real-time insights......",
+    link: "https://ieeepcs-85169.medium.com/the-scaling-dilemma-why-digital-twins-get-stuck-in-data-silos-6d791eab0fc6",
+},
+{
+  img : image3,
+  day: "Tuesday",
+  date: "Mar 19, 2024",
+  topic: "Crafting Tomorrow: The Future of Generative AI",
+  content :"In the vast landscape of artificial intelligence, one area that has sparked tremendous excitement and intrigue is Generative AI.......",
+  link : "https://ieeepcs-85169.medium.com/crafting-tomorrow-a-deep-dive-into-the-future-of-generative-ai-d61186b3241d",
 },
 {
   img : image2,

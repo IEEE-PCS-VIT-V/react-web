@@ -4,12 +4,11 @@ import logo from '../img/logo.png'
 export default function Navbarr() {
   
   return (
-    <div className='mx-0 my-0 font-sans text-3xl  bg-blue-300'>
+    <div className='mx-0 my-0 font-sans text-3xl bg-transparent'>
       <Navbar className=' px-0 py-1 my-0 bg-transparent flex justify-center container mx-auto 2xl:px-24'>
   
       <Navbar.Brand href='\'>
         <img src={logo} className='h-10 sm:h-11 py-1  md:inline-block ml-1 px-0' alt='PCS Logo'/>
-
       </Navbar.Brand>
       
       
