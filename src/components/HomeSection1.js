@@ -77,10 +77,10 @@ const HomeSection1 = () => {
         <p className="text-2xl font-bold">ABOUT US</p>
         <br></br>
         <p className="text-lg mt-0 mb-0 text-black font-semibold">
-          Communication for the <span className="text-blue-900">Soul,</span>
+          Communication for the <span className="text-white">Soul,</span>
         </p>
         <p className="text-lg text-black font-semibold">
-          Technology for the <span className="text-blue-900">Mind.</span>
+          Technology for the <span className="text-white">Mind.</span>
         </p>
         <form method="get" action="#about">
           <Button
