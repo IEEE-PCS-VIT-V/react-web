@@ -8,7 +8,8 @@ import Flagship from './book/Flagship';
 const Tabs = () => {
     const [pagenumber, setPagenumber] = useState(0);
   return (
-    <div>
+    <>
+    <div className='md:block hidden'>
       <div className="flex align-middle justify-center m-7 mt-16">
       <div className={`px-4 py-2 text-xl cursor-pointer ${pagenumber === 0 ? 'bg-blue-950 font-bold text-white rounded-3xl' : ''}`}  onClick={()=>setPagenumber(0)}>AboutUs</div>
       <div className={`px-4 py-2 text-xl cursor-pointer ${pagenumber === 1 ? 'bg-blue-950 font-bold text-white rounded-3xl' : ''}`} onClick={()=>setPagenumber(1)}>Flagship Events</div>
@@ -21,6 +22,14 @@ const Tabs = () => {
       <Events/>:pagenumber===3?<Gallery/>:<Blogs/>
       }
     </div>
+    <div className='md:hidden'>
+      <Aboutus/>
+      <Flagship/>
+      <Events/>
+      <Gallery/>
+      <Blogs/>
+    </div>
+    </>
   )
 }
 

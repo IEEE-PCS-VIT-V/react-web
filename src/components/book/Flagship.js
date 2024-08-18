@@ -29,9 +29,12 @@ const Flagship = () => {
       ]
   return (
     
-    <div className=' flex mx-auto justify-center'>
+    <div className=' mx-auto text-center'>
+      <h1 className='text-4xl mt-2 mb-8 font-semibold mx-auto'>FLAGSHIP EVENTS</h1>
+      <div className='md:flex mx-auto md:justify-center'>
       <Book bookdata = {book1} />
       <Book bookdata={book2}/>
+      </div>
     </div>
   )
   

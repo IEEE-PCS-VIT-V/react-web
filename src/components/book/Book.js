@@ -21,7 +21,7 @@ const Book = ({bookdata}) => {
     }
   };
   return (
-    <div className=' mx-16'>
+    <div className='mx-auto md:mx-16'>
       <HTMLFlipBook width={300} height={420} showCover={true} ref={flipBookRef}>
         
         
